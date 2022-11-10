@@ -67,7 +67,6 @@ export default {
                         <div class="navbar-nav ms-auto">
                             <a class="nav-link" :class="link.text === 'Comics' ? 'selected' : ''" :href="link.href"
                                 v-for="link in navLinks">{{ link.text }}</a>
-                            <!-- <a class="nav-link active" aria-current="page" href="#">Comics</a> -->
                         </div>
                     </div>
                 </div>
