@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+.footer_top {
+    color: $light;
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        background-image: url("../img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    h4 {
+        text-transform: uppercase;
+    }
+
+    li {
+        color: $text-link;
+    }
+}
+
+.footer_bot {
+    background-color: $dark;
+
+    .socials {
+        flex-basis: 35%;
+    }
+    h3{
+        color: $primary_color;
+    }
+}

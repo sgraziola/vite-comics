@@ -21,15 +21,5 @@ export default {
 </template>
 
 <style lang="scss">
-main {
-    background-color: black;
-    color: white;
-    height: 150px;
 
-    .container {
-        height: 100%;
-        align-items: center;
-
-    }
-}
 </style>

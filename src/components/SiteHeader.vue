@@ -77,23 +77,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.navbar {
-    img {
-        width: 80px;
-    }
 
-    .navbar-nav {
-        a {
-            color: black;
-            text-transform: uppercase;
-            font-weight: bold;
-
-            &.selected {
-                color: blue;
-                box-shadow: 0px 12px 0 -8px blue;
-            }
-        }
-    }
-
-}
 </style>

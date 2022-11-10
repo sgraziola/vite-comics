@@ -41,29 +41,26 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="footer_bot py-4">
+            <div class="container d-flex justify-content-between">
+                <div class="signup">
+                    <a href="#" class="btn text-white border border-2 border-primary">SIGN-UP NOW!</a>
+                </div>
+                <div class="socials d-flex justify-content-around">
+                    <h3>FOLLOW US</h3>
+                    <a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a>
+                    <a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a>
+
+                </div>
+            </div>
+        </div>
     </footer>
 
 </template>
 
 <style lang="scss" scoped>
-.footer_top {
-    color: white;
-    background-image: url("../assets/img/footer-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    .container {
-        background-image: url("../assets/img/dc-logo-bg.png");
-        background-repeat: no-repeat;
-        background-position: right;
-    }
-
-    h4 {
-        text-transform: uppercase;
-    }
-
-    li {
-        color: gray;
-    }
-}
 </style>
