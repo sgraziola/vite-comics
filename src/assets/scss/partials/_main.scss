@@ -1,12 +1,10 @@
 @use "variables" as *;
+
 main {
     background-color: $darker;
     color: $light;
-    height: 150px;
 
     .container {
-        height: 100%;
         align-items: center;
-
     }
 }
