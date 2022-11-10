@@ -76,7 +76,7 @@ export default {
 
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .navbar {
     img {
         width: 80px;
