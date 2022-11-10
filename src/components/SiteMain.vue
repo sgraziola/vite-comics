@@ -1,10 +1,6 @@
 <script>
-import CallToAction from './CallToAction.vue'
 export default {
     name: "SiteMain",
-    components: {
-        CallToAction,
-    }
 }
 
 </script>
@@ -14,8 +10,6 @@ export default {
         <div class="container d-flex">
             --> Content Goes Here &lt--
         </div>
-
-        <CallToAction></CallToAction>
     </main>
 
 </template>

@@ -1,0 +1,14 @@
+@use "variables" as *;
+
+
+.call_to_action {
+    background-color: $primary_color;
+
+    h6 {
+        color: $light;
+    }
+
+    img {
+        width: 50px;
+    }
+}
