@@ -1,0 +1,15 @@
+.comic {
+    img {
+        width: 200px;
+        object-fit: cover;
+        object-position: top;
+        aspect-ratio: 1 / 1;
+    }
+
+    span {
+        text-transform: uppercase;
+        display: inline-block;
+        padding-top: 1rem;
+        font-size: 14px;
+    }
+}
