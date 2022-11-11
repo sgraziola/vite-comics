@@ -16,8 +16,9 @@
         text-transform: uppercase;
     }
 
-    li {
+    a {
         color: $text-link;
+        text-decoration: none;
     }
 }
 

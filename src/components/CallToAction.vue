@@ -44,8 +44,10 @@ export default {
         <div class="container">
             <div class="row row-cols-5">
                 <div class="col d-flex align-items-center justify-content-evenly" v-for="call in calls">
-                    <img class="img-fluid" :src="getImageUrl(call.image)" alt="">
-                    <h6>{{ call.title }}</h6>
+                    <a href="#" class="d-flex align-items-center">
+                        <img class="img-fluid" :src="getImageUrl(call.image)" alt="">
+                        <h6>{{ call.title }}</h6>
+                    </a>
                 </div>
             </div>
         </div>

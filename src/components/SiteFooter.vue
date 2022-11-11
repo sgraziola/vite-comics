@@ -35,7 +35,7 @@ export default {
                     <div class="col" v-for="link in menuLinks">
                         <h4>{{ link.title }}</h4>
                         <ul class="list-unstyled">
-                            <li v-for="item in link.list">{{ item }}</li>
+                            <li v-for="item in link.list"><a href="#">{{ item }}</a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,5 +1,12 @@
+@use './partials/variables' as *;
 @use './node_modules/bootstrap/scss/bootstrap.scss';
 @use './partials/header';
 @use './partials/main';
 @use './partials/calltoaction';
 @use './partials/footer';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+body{
+    font-family:$dc-font;
+}
