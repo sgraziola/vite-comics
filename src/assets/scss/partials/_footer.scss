@@ -10,16 +10,21 @@
         background-image: url("../img/dc-logo-bg.png");
         background-repeat: no-repeat;
         background-position: right;
+        .row{
+            flex-direction: column;
+            height: 330px;
+        }
+
+        h4 {
+            text-transform: uppercase;
+        }
+    
+        a {
+            color: $text-link;
+            text-decoration: none;
+        }
     }
 
-    h4 {
-        text-transform: uppercase;
-    }
-
-    a {
-        color: $text-link;
-        text-decoration: none;
-    }
 }
 
 .footer_bot {

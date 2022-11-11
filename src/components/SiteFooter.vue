@@ -9,16 +9,16 @@ export default {
                     list: ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"],
                 },
                 {
+                    title: "Shop",
+                    list: ["Shop DC", "Shop DC Collectibles"],
+                },
+                {
                     title: "DC",
                     list: ["Terms Of Use", "Privacy Policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"],
                 },
                 {
                     title: "Sites",
                     list: ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"],
-                },
-                {
-                    title: "Shop",
-                    list: ["Shop DC", "Shop DC Collectibles"],
                 },
             ]
         }
@@ -31,7 +31,7 @@ export default {
     <footer id="site_footer">
         <div class="footer_top">
             <div class="container py-4 d-flex justify-content-between">
-                <div class="row row-cols-3">
+                <div class="row gx-5">
                     <div class="col" v-for="link in menuLinks">
                         <h4>{{ link.title }}</h4>
                         <ul class="list-unstyled">
