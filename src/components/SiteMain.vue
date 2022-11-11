@@ -1,9 +1,14 @@
 <script>
+import Jumbotron from './Jumbotron.vue'
 import CallToAction from './CallToAction.vue';
+import ComicsList from './ComicsList.vue';
+
 export default {
     name: "SiteMain",
     components: {
         CallToAction,
+        Jumbotron,
+        ComicsList
     }
 }
 
@@ -11,16 +16,15 @@ export default {
 <template>
 
     <main id="site_main">
-        <div class="container d-flex">
-            --> Content Goes Here &lt--
-        </div>
+        <Jumbotron />
+
+        <ComicsList />
+
         <CallToAction />
     </main>
 
 </template>
 
 <style lang="scss" scoped>
-.container {
-    height: 150px;
-}
+
 </style>
