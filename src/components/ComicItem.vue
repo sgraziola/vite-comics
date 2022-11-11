@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Comic',
+    name: 'ComicItem',
     props: {
         thumb: String,
         title: String,

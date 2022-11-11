@@ -1,5 +1,5 @@
 <script>
-import Jumbotron from './Jumbotron.vue'
+import Jumbotron from './JumbotronItem.vue'
 import CallToAction from './CallToAction.vue';
 import ComicsList from './ComicsList.vue';
 
