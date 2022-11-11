@@ -58,16 +58,18 @@ export default {
             <nav class="navbar navbar-expand-lg py-4">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="../assets/img/dc-logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto">
-                            <a class="nav-link" :class="link.text === 'Comics' ? 'selected' : ''" :href="link.href"
-                                v-for="link in navLinks">{{ link.text }}</a>
-                        </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item" v-for="link in navLinks">
+                                <a class="nav-link" :class="link.text === 'Comics' ? 'selected' : ''" :href="link.href">
+                                    {{ link.text }}
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
