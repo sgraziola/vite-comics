@@ -2,7 +2,7 @@
 import Comic from './ComicItem.vue'
 import comics from '../data/comics.js'
 export default {
-    name: "ComicList",
+    name: "ComicsList",
     components: {
         Comic,
     },
